@@ -215,7 +215,7 @@ class USVehicleAccidentAnalysis:
 
         utils.write_output(resultDF.select("VEH_MAKE_ID"), 8)
         
-        print("7. Determines the Top 5 Vehicle Makes/Brands where drivers are charged with speeding related offences,\n has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states \n with highest number of offences : ")
+        print("8. Determines the Top 5 Vehicle Makes/Brands where drivers are charged with speeding related offences,\n has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states \n with highest number of offences : ")
         resultDF.select("VEH_MAKE_ID").show(truncate = False)
 
 
