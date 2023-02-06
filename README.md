@@ -22,8 +22,9 @@ Application should perform below analysis and store the results for each analysi
 
 ### Runbook
 Clone the repo and follow these steps:
-1. Go to the Project Directory: `$ cd BCG_Assignment`
-2. On terminal, run `$ make build`. This will build the project to run via spark-submit. In this process a new folder with 
+1. Execute `pip install [package-name]` if requirements not satisfied.
+2. Go to the Project Directory: `$ cd BCG_Assignment`
+3. On terminal, run `$ make build`. This will build the project to run via spark-submit. In this process a new folder with 
    name "app" is created, and the code artefacts are copied into it.
-3. `$ cd app && spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py && cd ..`
-4. After Execution result are obtained in the form of CSV from Output folder. Every analysis is stored in separate folder with names starting Result[Analysis Number]
+4. `$ cd app && spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py && cd ..`
+5. After Execution result are obtained in the form of CSV from `Output` folder. Every analysis is stored in separate folder with names starting `Result[Analysis Number]`
