@@ -1,0 +1,30 @@
+INPUT_FILENAME:
+  Charges: Data/Charges_use.csv
+  Damages: Data/Damages_use.csv
+  Endorse: Data/Endorse_use.csv
+  Primary_Person: Data/Primary_Person_use.csv
+  Units: Data/Units_use.csv
+  Restrict: Data/Restrict_use.csv
+
+OUTPUT_NAME:
+  File_Name: output
+
+OUTPUT_PATH:
+  1: ../Output/Result1
+  2: ../Output/Result2
+  3: ../Output/Result3
+  4: ../Output/Result4
+  5: ../Output/Result5
+  6: ../Output/Result6
+  7: ../Output/Result7
+  8: ../Output/Result8
+
+HEADER_NAMES:
+  1: TOTAL_MALE_CASUALITIES
+  2: TOTAL_TWO_WHEELER_INVOLVED_IN_CRASH
+  3: STATE_WITH_HIGHEST_FEMALE_CAUSED_ACCIDENTS
+  4: 5th_TO_15th_FATAL_VEHICLES
+  5: TOP_ETHNIC_USERS_FOR_EVERY_BODY_STYLE
+  6: TOP_5_ALCOHOL_INDUCED_CRASHES
+  7: DISTINCT_CAR_COUNT_WITH_INSURANCE
+  8: TOP_5_SPEEDING_OFFENCE_VEHICLES
